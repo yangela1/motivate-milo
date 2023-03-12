@@ -85,6 +85,7 @@ nav {
     display: flex;
     width: 50%;
     margin: 1rem 0;
+    justify-content: center;
   }
   
   img {
