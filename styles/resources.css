@@ -9,6 +9,63 @@ body {
     padding: 0px;
 }
 
+
+/** Tried the first card**/
+.card {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .card:hover .title {
+    opacity: 0;
+  }
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .card:hover .text {
+    opacity: 1;
+  }
+  
+
+/* Hide the text by default */
+.text.hidden {
+    display: none;
+  }
+  
+  /* Show the text when the user hovers over the card */
+  .resources-content:hover .title {
+    display: none;
+  }
+  
+  .resources-content:hover .text {
+    display: block;
+  }
+  
+/** Tried the first card**/
+
+
+
 #resources-container {
     display: grid;
     grid-template-columns: 100%;
@@ -124,3 +181,5 @@ body {
 }
 
 /** angela**/
+
+
