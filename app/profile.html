@@ -8,6 +8,13 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rampart+One&display=swap');
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script> 
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
   </head>
   <body>
     <!-- navbar -->
@@ -30,17 +37,25 @@
     <!-- navbar -->
     <div class="container">
       <img class= "img1" src="/app/img/milo.png" alt="Profile Picture">
-      <h1>John Doe</h1>
-      <p>Web Developer</p>
+      <h1><span id="name-goes-here">John Doe</span></h1>
+      <p>Software Developer</p>
       <form>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" value="" placeholder="Email">
+        <br>
         <label for="phone">Phone:</label>
         <input type="tel" id="phone" name="phone" value="" placeholder="Phone">
+        <br>
+        <label for="goal">Curent Position:</label>
+        <input type="text" id="position" name="goal" value="" placeholder="Software Developer">
+        <br>
         <label for="goal">Ultimate Goal:</label>
-        <input type="text" id="string" name="goal" value="" placeholder="goal">
+        <input type="text" id="goal" name="goal" value="" placeholder="Goal">
+        <br>
         <input type="submit" value="Save Changes">
       </form>
     </div>
+    <script src="../scripts/firebase.js"></script>
+    <script src="../scripts/main.js"></script>
   </body>
 </html>
