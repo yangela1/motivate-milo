@@ -34,3 +34,16 @@ function readQuote(day) {
       })
 }
 readQuote("tuesday");        //calling the function
+
+
+
+// Function to read the challenge of the week from Firestore "weekly_challenge" collection
+// Input param is the String representing the week, aka, the document name
+function readChallenge(week) {
+    db.collection("weekly_challenge").doc(week)                                                      //name of the collection and documents should matach excatly with what you have in Firestore
+      .onSnapshot(week1Doc => {                                                               //arrow notation
+           console.log("current document data: " + week1Doc.data());                          //.data() returns data object
+           document.getElementById("challenge-goes-here").innerHTML = week1Doc.data().challenge;      //using javascript to display the data on the right place
+      })
+}
+readChallenge("week1");        //calling the function
