@@ -6,11 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<<<<<<< HEAD
     
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/navbar.css">
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+=======
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rampart+One&display=swap');
+    </style>
+    <link rel="stylesheet" href="/styles/main.css">
+
+       <!-------------------------------------------------------->
+    <!-- Firebase 8 Library related CSS, JS, JQuery go here -->
+    <!-------------------------------------------------------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script> 
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
+>>>>>>> 67860e149ccb1792efca00986fbbd7159be831ed
 </head>
 
 <body>
@@ -31,13 +48,14 @@
                 <li><a href="resources.html">Resources</a></li>
                 <li><a href="profile.html">Profile</a></li>
             </ul>
+        </div>
     </nav>
 
     <div class="container">
         <img src="/app/img/logo2.jpg" alt="Image">
         <div class="text-area">
             <h2>Welcome Back, <span>User's Name</span></h2>
-            <p>“Times flies like arrow, fruit flies lie banana”</p>
+            <p><span id="quote-goes-here"></span></p>
         </div>
     </div>
 
@@ -59,12 +77,22 @@
         <div class="right-side">
             <h2>Weekly challenges</h2>
             <div class="text">
-                <p>Lorem ipsum dolor sit amet </p>
+                <p>Your challenge this week is: <span id="challenge-goes-here"></span></p>
             </div>
         </div>
     </div>
+<<<<<<< HEAD
 
     <script src="./scripts/skeleton.js"></script>
+=======
+    <!---------------------------------------------->
+    <!-- Your own JavaScript functions go here    -->
+    <!---------------------------------------------->
+    <script src="/scripts/firebase.js"></script>
+    <script src="/scripts/skeleton.js"></script>
+    <script src="/scripts/main.js"></script>
+    
+>>>>>>> 67860e149ccb1792efca00986fbbd7159be831ed
 </body>
 
 </html>
