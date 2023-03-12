@@ -3,7 +3,8 @@ body {
 
 }
 
-html, body {
+html,
+body {
     margin: 0px;
     padding: 0px;
 }
@@ -102,11 +103,11 @@ html, body {
 }
 
 .resources-content {
-    text-align: center;
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-size: 14pt;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
     background-color: aliceblue;
     padding: 0.5em;
     margin: 1em;
@@ -121,3 +122,5 @@ html, body {
     justify-content: center;
     font-size: 18pt;
 }
+
+/** angela**/
