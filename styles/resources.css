@@ -1,0 +1,119 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#resources-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+}
+
+#resources-hero {
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 100%;
+}
+
+#resources-milo {
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+}
+
+#miloImage {
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#resources-miloSays {
+    grid-column: 2/span 1;
+    grid-row: 1/span 1;
+}
+
+#resources-content {
+    grid-column: 1/span 1;
+    grid-row: 2/span 1;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 10% 40% 10% 40%;
+}
+
+#mentalHealthHeader {
+    grid-column: 1/span 3;
+    grid-row: 1/span 1;
+}
+
+#resources-content1 {
+    grid-column: 1/span 1;
+    grid-row: 2/span 1;
+}
+
+#resources-content2 {
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
+}
+
+#resources-content3 {
+    grid-column: 3/span 1;
+    grid-row: 2/span 1;
+}
+
+#jobSearchHeader {
+    grid-column: 1/span 3;
+    grid-row: 3/span 1;
+}
+
+#resources-content4 {
+    grid-column: 1/span 1;
+    grid-row: 4/span 1;
+}
+
+#resources-content5 {
+    grid-column: 2/span 1;
+    grid-row: 4/span 1;
+}
+
+#resources-content6 {
+    grid-column: 3/span 1;
+    grid-row: 4/span 1;
+}
+
+.resources-content {
+    margin: 1em;
+}
+
+.resources-hero {
+    margin: 1em;
+}
+
+.resources-hero {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24pt;
+}
+
+.resources-content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14pt;
+    background-color: aliceblue;
+    padding: 0.5em;
+}
+
+.resources-header {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18pt;
+}
