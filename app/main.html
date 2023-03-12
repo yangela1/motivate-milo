@@ -13,6 +13,12 @@
         @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Rampart+One&display=swap');
       </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script> 
+    <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
 </head>
 
 <body>
@@ -36,8 +42,10 @@
     <div class="container">
         <img src="/app/img/milo.png" alt="Image">
         <div class="text-area">
-            <h2>Welcome Back, <span>User's Name</span></h2>
-            <p><span id="quote-goes-here"></span></p>
+            <h2>
+                <br><br>Welcome Back, <span>User's Name</span>
+            </h2>
+            <p>Quote of the day: <span id="quote-goes-here"></span></p>
         </div>
     </div>
 
@@ -68,7 +76,8 @@
         </div>
     </div>
 
-    <script src="./scripts/skeleton.js"></script>
+    <script src="../scripts/firebase.js"></script>
+    <script src="../scripts/main.js"></script>
 </body>
 
 </html>
