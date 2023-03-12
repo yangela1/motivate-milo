@@ -5,15 +5,9 @@ html, body {
 
 body {
     background-image: url(../app/img/landingpage-background.jpg);
+    font-family: 'Raleway', sans-serif;
   
   }
-
-*{
-  font-family: 'Raleway', sans-serif;
-}  
-
-
-
 
 img {
     max-width: 80%;
