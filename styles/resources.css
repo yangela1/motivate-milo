@@ -8,63 +8,384 @@ body {
     margin: 0px;
     padding: 0px;
 }
-
-
-/** Tried the first card**/
-.card {
+/* First Card */
+  #resources-content2 {
     position: relative;
-    display: inline-block;
-    width: 300px;
-    height: 200px;
-    border-radius: 5px;
-    overflow: hidden;
   }
   
-  .title {
+  .card {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: opacity 0.3s ease-in-out;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
   
-  .card:hover .title {
+  .image {
+    background-image: url('/app/img/think.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .card:hover .image {
     opacity: 0;
   }
   
   .text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    text-align: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
   }
   
   .card:hover .text {
     opacity: 1;
   }
   
-
-/* Hide the text by default */
-.text.hidden {
-    display: none;
+  .text p {
+    color: black;
+    padding: 20px;
   }
   
-  /* Show the text when the user hovers over the card */
-  .resources-content:hover .title {
-    display: none;
+  .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   
-  .resources-content:hover .text {
-    display: block;
+/**Second Card**/
+
+#resources-content3 {
+    position: relative;
   }
   
-/** Tried the first card**/
+  .card2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image2 {
+    background-image: url('/app/img/reward.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .card2:hover .image2 {
+    opacity: 0;
+  }
+  
+  .text2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .card2:hover .text2 {
+    opacity: 1;
+  }
+  
+  .text2 p {
+    color: black;
+    padding: 20px;
+  }
+  
+  .text2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
+/**Third Card**/
 
+#resources-content1 {
+    position: relative;
+  }
+  
+  .card3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image3 {
+    background-image: url('/app/img/mind.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .card3:hover .image3 {
+    opacity: 0;
+  }
+  
+  .text3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .card3:hover .text3 {
+    opacity: 1;
+  }
+  
+  .text3 p {
+    color: black;
+    padding: 20px;
+  }
+  
+  .text3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+/** Fourth Card **/
+
+#resources-content4 {
+    position: relative;
+  }
+  
+  .card4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image4 {
+    background-image: url('/app/img/application.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .card4:hover .image4 {
+    opacity: 0;
+  }
+  
+  .text4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .card4:hover .text4 {
+    opacity: 1;
+  }
+  
+  .text4 p {
+    color: black;
+    padding: 20px;
+  }
+  
+  .text4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+/** Fifth Card **/
+
+#resources-content5 {
+    position: relative;
+  }
+  
+  .card5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image5 {
+    background-image: url('/app/img/interview.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .card5:hover .image5 {
+    opacity: 0;
+  }
+  
+  .text5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .card5:hover .text5 {
+    opacity: 1;
+  }
+  
+  .text5 p {
+    color: black;
+    padding: 20px;
+  }
+  
+  .text5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /** Sixth Card **/
+
+#resources-content6 {
+    position: relative;
+  }
+  
+  .card6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .image6 {
+    background-image: url('/app/img/connection.png');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .card6:hover .image6 {
+    opacity: 0;
+  }
+  
+  .text6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .card6:hover .text6 {
+    opacity: 1;
+  }
+  
+  .text6 p {
+    color: black;
+    padding: 20px;
+  }
+  
+  .text6 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* *---------------------* */
 
 #resources-container {
     display: grid;
@@ -104,7 +425,7 @@ body {
     grid-row: 2/span 1;
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-template-rows: 10% 40% 10% 40%;
+    grid-template-rows: 10% 90% 10% 90%;
 }
 
 #mentalHealthHeader {
@@ -113,17 +434,20 @@ body {
 }
 
 #resources-content1 {
-    grid-column: 1/span 1;
+    position: relative;
+    grid-column: 3/span 1;
     grid-row: 2/span 1;
 }
 
 #resources-content2 {
-    grid-column: 2/span 1;
+  position: relative;
+    grid-column: 1/span 1;
     grid-row: 2/span 1;
 }
 
 #resources-content3 {
-    grid-column: 3/span 1;
+    position: relative;
+    grid-column: 2/span 1;
     grid-row: 2/span 1;
 }
 
@@ -160,6 +484,8 @@ body {
 }
 
 .resources-content {
+    /* background-image: url(/app/img/connection.png); */
+    object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,6 +506,5 @@ body {
     font-size: 18pt;
 }
 
-/** angela**/
 
 
