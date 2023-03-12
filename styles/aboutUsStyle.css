@@ -1,0 +1,4 @@
+.col:hover {
+    background-color: #FFD36E; /* changes the background color to a different color when hovered over */
+    color: white;
+}
