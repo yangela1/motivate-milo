@@ -10,6 +10,10 @@ body {
   
   }
 
+  .logo h2 {
+    color: #ffd36e;
+    text-shadow: 2px 2px 0 #9FB4FF, -2px -2px 0 #FFD36E, 2px -2px 0 #9FB4FF, -2px 2px 0 #FFD36E;
+  }
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
