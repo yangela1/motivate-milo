@@ -3,7 +3,6 @@
     color: white;
 }
 
-<<<<<<< HEAD
 nav {
     display: flex;
     justify-content: space-between;
@@ -58,8 +57,4 @@ nav {
 .navbar li:hover {
     background-color: #e28989;
     color: #ffd36e;
-=======
-body {
-    font-family: 'Raleway', sans-serif;
->>>>>>> 67860e149ccb1792efca00986fbbd7159be831ed
 }
