@@ -2,6 +2,11 @@ html, body {
     margin: 0px;
     padding: 0px;
 }
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url(../app/img/landingpage-background.jpg);
+  
+  }
 
 .container {
     display: grid;
@@ -12,7 +17,7 @@ html, body {
 }
 
 img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -54,6 +59,7 @@ h4 {
     font-size: 18px;
     line-height: 1.5;
     color: #333;
+    padding-left: 30%;
 }
 
 .right-side {
