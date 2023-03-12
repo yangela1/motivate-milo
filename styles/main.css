@@ -72,6 +72,24 @@ h4 {
     padding: 20px;
 }
 
+/* Card for challenges CSS */
+
+.card {
+    max-width: 400px;
+    /* background-color: #fff; */
+    border: 1px solid #ccc;
+    padding: 20px;
+    transition: opacity 0.5s ease-in-out;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card.faded {
+    opacity: 0.5;
+  }
+
+  
 
 /* Checklist TO DO Button CSS */
 
