@@ -76,7 +76,7 @@ h4 {
 
 .card {
     max-width: 400px;
-    /* background-color: #fff; */
+    background-color: #fff;
     border: 1px solid #ccc;
     padding: 20px;
     transition: opacity 0.5s ease-in-out;
@@ -84,11 +84,11 @@ h4 {
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
-  
+
   .card.faded {
     opacity: 0.5;
+    background-color: transparent;
   }
-
   
 
 /* Checklist TO DO Button CSS */
